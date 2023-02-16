@@ -127,26 +127,26 @@
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-6 ftco-animate">
-                    <form action="#" class="contact-form">
+                    <form action="wholsale.php" class="contact-form" method="POST">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Full Name">
+                                    <input type="text" class="form-control" placeholder="Your Full Name" name="name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Job Title">
+                                    <input type="text" class="form-control" placeholder="Job Title" name="job">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Email">
+                                    <input type="text" class="form-control" placeholder="Your Email" name="email">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Name of Business">
+                                    <input type="text" class="form-control" placeholder="Name of Business" name="business">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -156,7 +156,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control" placeholder="Years">
+                                    <input type="number" class="form-control" placeholder="Years" name="years">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -166,7 +166,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control number" placeholder="Locations">
+                                    <input type="number" class="form-control number" placeholder="Locations" name="locations">
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -176,7 +176,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <select class=" form-control custom-select" placeholder="What is your level of experience working with coffee?">
+                                    <select class=" form-control custom-select" placeholder="What is your level of experience working with coffee?" name="level">
                                         <option selected>Choose...</option>
                                         <option value="Non experience">Non experience</option>
                                         <option value="Experienced">Experienced</option>
@@ -191,7 +191,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="number" class="form-control number" placeholder="Volume of pounds">
+                                    <input type="number" class="form-control number" placeholder="Volume of pounds" name="volume">
                                 </div>
                             </div>
                         </div>
@@ -200,8 +200,7 @@
                             <label for="">How did you hear about us?</label>
                         </div>
                         <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="7" class="form-control"
-                                placeholder="Tell us how you heard about us..."></textarea>
+                            <textarea name="about" id="" cols="30" rows="7" class="form-control" placeholder="Tell us how you heard about us..."></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
@@ -223,9 +222,9 @@
 						<p>The flavors of our coffee are spectacular. But, unfortunately, they are nowhere to be found.</p>
                         <p><strong>ONLY IN BOCACOSTA COFFEE</strong></p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-							<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-							<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+							<!-- <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
+							<li class="ftco-animate"><a href="https://www.instagram.com/bocacostacoffeeus/"><span class="icon-instagram"></span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -294,9 +293,7 @@
 						Copyright &copy;
 						<script>document.write(new Date().getFullYear());</script> 
 						All rights reserved 
-						<!-- | This template
-						is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://szystems.com"
-							target="_blank">Szystems</a> -->
+						| <a href="https://szystems.com" target="_blank">Szystems</a>
 						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					</p>
 				</div>
