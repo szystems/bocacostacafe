@@ -9,9 +9,9 @@
     $field_volume = $_POST['volume'];
     $field_about = $_POST['about'];
 
-    $mail_to = 'wholsale@bocacostacafe.com';
+    $mail_to = 'wholesale@bocacostacafe.com';
 
-    $subject = 'Message from www.bocacostacafe.com (Wholsale): ' . $field_name;
+    $subject = 'Message from www.bocacostacafe.com (Wholesale): ' . $field_name;
 
     $body_message = 'From: '.$field_name."\n";
     $body_message .= 'Job Title: '.$field_job."\n";
@@ -33,7 +33,7 @@
             // Print a message
             alert('Thank you for the message. We will contact you shortly.');
             // Redirect to some page of the site. You can also specify full URL, e.g. http://template-help.com
-            window.location = 'wholsale.html';
+            window.location = 'wholesale.html';
         </script>
     <?php
     }
@@ -43,7 +43,7 @@
             // Print a message
             alert('Message failed. Please, send an email to info@bocacostacafe.com');
             // Redirect to some page of the site. You can also specify full URL, e.g. http://template-help.com
-            window.location = 'wholsale.html';
+            window.location = 'wholesale.html';
         </script>
     <?php
     }
